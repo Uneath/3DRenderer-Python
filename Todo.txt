@@ -1,0 +1,22 @@
+Bug:
+    When rotating objects rotate in the inverse direction in the x axis when bound to Camera (More testing needed)
+    A lot on rotation
+    Not sure why but Faces just absolutely break at certain angles
+
+Impriovements:
+    Add ranges of color, transparent PhysicalObjects can return a range from when to start to finish instead of a pair of HitMarks
+    When in this range and a new HitMark is found the calculated opacity becomes (1-(opacity/unitVector)) ^ dist, added first.
+    Add planes (Not the flying kind, the flat surface kind)
+        Add polygon
+            Add block...
+
+    Remove Renderer (Me dum)
+
+    Parallelize () using threading
+    Use Bitmap to send information to label instead of canvas.
+
+    Lighting
+
+    Portals/ reflections (use a reflectCount to count down recurively)
+
+    Load files (ex. stl, vrml)
